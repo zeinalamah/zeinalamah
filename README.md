@@ -1,7 +1,7 @@
 ### Hey there, I am [Zein Alamah](https://www.linkedin.com/in/zein-alamah/) a financial analyst with a diverse set of interests.
 
 <!--
-**zeinalamah/zeinalamah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**zeinalamah/zeinalamah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
 
 ##<center>**About Me**</center>
 
