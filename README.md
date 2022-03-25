@@ -1,9 +1,9 @@
-### Hey there, I am [Zein Alamah](https://www.linkedin.com/in/zein-alamah/) a financial analyst with a diverse set of interests.
-
+## Hey there, I am [Zein Alamah](https://www.linkedin.com/in/zein-alamah/).
 <!--
 **zeinalamah/zeinalamah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
 
-##<center>**About Me**</center>
+
+## About Me
 
 I am a CFA level 2 candidate, a graduate student studying applied economics while finalizing my thesis to obtain my MS in Finance. 
 
@@ -11,36 +11,20 @@ I've always been interested in programming, writing my first batch script when I
 
 
 
-##<center>**My Interests**</center>
-
-Econometrics
-Financial Modeling 
-Financial Analysis 
-Generative Art
-Text Analytics 
-Simulations 
-Data Analysis 
-Machine Learning
-Data Visualization
-Cryptoassets
-Virtual Economics 
-Digital Economy 
-
-##<center>**Tech Stack**</center>
-Python
-Javascript 
-Stata
-Solidity 
+## My Interests
 
 
+![Econometrics](https://img.shields.io/badge/-Econometrics-orange) ![Financial Modeling](https://img.shields.io/badge/-Financial%20Modeling-090)  ![Financial Analysis](https://img.shields.io/badge/-Financial%20Analysis-090) ![Simulations](https://img.shields.io/badge/-Simulations-yellow)  ![Text Analytics](https://img.shields.io/badge/-Text%20Analytics-9cf) ![Data Analysis](https://img.shields.io/badge/-Data%20Analysis-9cf) ![Machine Learning](https://img.shields.io/badge/-Machine%20Learning-9cf) 
+![Data Visualization](https://img.shields.io/badge/-Data%20Visualization-9cf) 
+![Cryptoassets](https://img.shields.io/badge/-Cryptoassets-red) 
+![Generative Art](https://img.shields.io/badge/-Generative%20Art-blueviolet)
+![Virtual Economics](https://img.shields.io/badge/-Virtual%20Economics-brightgreen) 
+![Digital Economy](https://img.shields.io/badge/-Digital%20Economy-brightgreen) 
 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Tech Stack
+![Python](https://img.shields.io/badge/-Python-blue)
+![Javascript](https://img.shields.io/badge/-Javascript-blue)
+![Solidity](https://img.shields.io/badge/-Solidity-blue)
+
+
