@@ -5,7 +5,7 @@
 
 ## About Me
 
-I am a CFA level 2 candidate, a graduate student studying applied economics while finalizing my thesis to obtain my MS in Finance. 
+I am a graduate student studying applied economics with a MSc in Finance. 
 
 I've always been interested in programming, writing my first batch script when I was 15 years old and C++ when I was 16, before deciding to major in CS. However, the program was not up to my expectations, so I decided to output for a career in finance. Focusing exclusively on finance, I earned my BA in finance and passed the CFA level 1 exam back in 2019. Since then, I realized that sidelining programming was the wrong decision to make, and I've been actively getting my skin back in the game as a self-taught developer.  
 
