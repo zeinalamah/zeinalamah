@@ -1,4 +1,4 @@
-## Hey there, I am [Mr.Anon](https://www.linkedin.com/in/zein-alamah/).
+## Hey there, I am [Mr.Zein Alamah](https://www.linkedin.com/in/zein-alamah/).
 <!--
 **zeinalamah/zeinalamah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
 
