@@ -43,7 +43,7 @@ I’m committed to continuous learning and applying a multidisciplinary approach
 ---
 
 ## Tech Stack
-![Stata](https://img.shields.io/badge/-Solidity-blue)
+![Stata](https://img.shields.io/badge/-Stata-blue)
 ![Python](https://img.shields.io/badge/-Python-blue)
 ![Javascript](https://img.shields.io/badge/-Javascript-blue)
 ![Solidity](https://img.shields.io/badge/-Solidity-blue)
