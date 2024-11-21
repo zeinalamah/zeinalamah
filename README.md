@@ -2,7 +2,7 @@
 **Strategist | Economist | Data Analyst**  
 *"Generalists Rule The World. Keep Learning."*  
 
-🌐 [zeinalamah.com](https://zeinalamah.com)
+🌐 [zeinalamah.com](https://zeinalamah.com) (Work In Progress)
 
 ---
 
