@@ -1,5 +1,5 @@
 ## Hey there, I am [Zein Alamah](https://zeinalamah.com).
-**Strategist | Economist | Data Analyst**  
+**Explore | Reflect | Transcend**  
 *"Generalists Rule The World. Keep Learning."*  
 
 🌐 [zeinalamah.com](https://zeinalamah.com) (Work In Progress)
@@ -8,13 +8,13 @@
 
 ## About Me
 
-I wrote my first batch script at 15 and my first C++ program at 16, sparking a lifelong passion for technology and problem-solving. While I initially pursued a BS in computer science, I transitioned to finance, earning a BA in Finance and an MSc in Finance. My fascination with automation and programmable money inspired me to combine programming with finance, reigniting my skills as a self-taught developer and blending technical expertise with strategic insight.
+I wrote my first batch script at 15 and my first C++ program at 16, sparking a lifelong passion for technology and problem-solving. While I initially pursued a BS in computer science, I transitioned to finance, earning a BA in Finance followed by a MSc in Finance. My fascination with automation and programmable money inspired me to combine programming with finance, reigniting my skills as a self-taught developer and blending technical expertise with strategic insight.
 
-Exploring cryptoassets led me to pursue a master’s in applied economics, where I deepened my interest in data analysis and visualization. As a research assistant, I implemented econometric techniques and tackled data-intensive projects, which strengthened my passion for uncovering insights through analytics and visualization.
+Exploring cryptoassets led me to pursue a master’s in applied economics, where I deepened my interest in data analysis and visualization. As a research assistant, I implemented econometric techniques and tackled data-intensive projects, which strengthened my interest in uncovering insights through analytics and visualization.
 
-Today, I’m a strategic business consultant and data analyst specializing in delivering actionable insights through data-driven strategies. My expertise includes data cleaning, visualization, and econometric modeling, utilizing tools like Python and Stata to solve complex challenges for startups and corporations. From streamlining processes to driving strategic growth, I focus on creating measurable impact and innovative solutions.
+Today, I am pursuing a PhD in Economics, as I seek to deepen my understanding of real world mechanics spanning from the financial system to firm strategies. I am also constantly eager to further develop my programming skills, as I expand my skillset to accomodate more computational and quantitative methods. 
 
-I’m committed to continuous learning and applying a multidisciplinary approach to solve real-world problems. Visit my personal website or connect with me on LinkedIn to collaborate on impactful projects.
+I’m committed to continuous learning and applying a multidisciplinary approach to solve real-world problems. Visit my personal [website](zeinalamah.com) or connect with me on LinkedIn to discuss ideas or collaborate on projects.
 
 ---
 
@@ -46,4 +46,5 @@ I’m committed to continuous learning and applying a multidisciplinary approach
 ![Stata](https://img.shields.io/badge/-Stata-blue)
 ![Python](https://img.shields.io/badge/-Python-blue)
 ![Javascript](https://img.shields.io/badge/-Javascript-blue)
-![Solidity](https://img.shields.io/badge/-Solidity-blue)
+![SQL](https://img.shields.io/badge/-SQL-lightgrey)
+![LaTeX](https://img.shields.io/badge/-LaTeX-teal)
