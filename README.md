@@ -14,7 +14,7 @@ Exploring cryptoassets led me to pursue a master’s in applied economics, where
 
 Today, I am pursuing a PhD in Economics, as I seek to deepen my understanding of real world mechanics spanning from the financial system to firm strategies. I am also constantly eager to further develop my programming skills, as I expand my skillset to accomodate more computational and quantitative methods. 
 
-I’m committed to continuous learning and applying a multidisciplinary approach to solve real-world problems. Visit my personal [website](zeinalamah.com) or connect with me on LinkedIn to discuss ideas or collaborate on projects.
+I’m committed to continuous learning and applying a multidisciplinary approach to solve real-world problems. Visit my [website](zeinalamah.com) or connect with me on LinkedIn to discuss ideas or collaborate on projects.
 
 ---
 
