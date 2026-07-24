@@ -6,7 +6,6 @@ import pandas as pd
 import requests
 
 OUT=Path('research_output/paper2_v7_jodi'); OUT.mkdir(parents=True,exist_ok=True)
-URL='https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/primaryyear{year}.csv'
 YEARS=range(2015,2027)
 GULF={'SA','AE','QA','KW','BH','IQ','IR','OM'}
 flows={'TOTEXPSB','TOTIMPSB','CLOSTLV','PROD','TOTDEMO','REFINOBS','STOCKCH'}
@@ -14,7 +13,10 @@ products={'CRUDEOIL','TOTCRUDE'}
 frames=[]; logs=[]
 s=requests.Session(); s.headers.update({'User-Agent':'academic-energy-chokepoint-research/1.0'})
 for y in YEARS:
-    url=URL.format(year=y)
+    if y == 2026:
+        url='https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/primaryyear2026.csv'
+    else:
+        url=f'https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/{y}.csv'
     try:
         r=s.get(url,timeout=240); r.raise_for_status()
         path=OUT/f'primary_{y}.csv'; path.write_bytes(r.content)
@@ -24,10 +26,10 @@ for y in YEARS:
         x=raw[raw.REF_AREA.isin(GULF)&raw.ENERGY_PRODUCT.isin(products)&raw.FLOW_BREAKDOWN.isin(flows)].copy()
         x['value']=pd.to_numeric(x.OBS_VALUE,errors='coerce'); x['month']=pd.to_datetime(x.TIME_PERIOD,errors='coerce'); x['source_year']=y
         frames.append(x[['REF_AREA','month','ENERGY_PRODUCT','FLOW_BREAKDOWN','UNIT_MEASURE','value','ASSESSMENT_CODE','source_year']])
-        logs.append({'year':y,'status':'ok','bytes':len(r.content),'raw_rows':len(raw),'selected_rows':len(x)})
+        logs.append({'year':y,'status':'ok','url':url,'bytes':len(r.content),'raw_rows':len(raw),'selected_rows':len(x)})
         path.unlink(missing_ok=True)
     except Exception as e:
-        logs.append({'year':y,'status':'failed','error':repr(e)})
+        logs.append({'year':y,'status':'failed','url':url,'error':repr(e)})
     print(logs[-1],flush=True)
 pd.DataFrame(logs).to_csv(OUT/'jodi_download_log.csv',index=False)
 if not frames: raise RuntimeError('No JODI data')
