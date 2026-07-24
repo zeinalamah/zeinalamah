@@ -1,1 +1,1 @@
-Run the public PortWatch delivery extension.
+Run the corrected public PortWatch delivery extension with complete metadata pagination and valid dates.
