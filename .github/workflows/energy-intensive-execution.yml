@@ -1,6 +1,9 @@
 name: Execute broad energy-intensive panel
 
 on:
+  push:
+    branches: [energy-intensive-execution]
+    paths: ['.github/workflows/energy-intensive-execution.yml']
   pull_request:
     branches: [main]
     paths: ['.github/workflows/energy-intensive-execution.yml']
@@ -8,6 +11,7 @@ on:
 
 permissions:
   contents: read
+  issues: write
 
 jobs:
   collect:
@@ -68,3 +72,8 @@ jobs:
           path: research_output/energy_intensive
           if-no-files-found: error
           retention-days: 7
+      - name: Publish run ID
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "Energy-intensive execution run $GITHUB_RUN_ID" --body "run_id=$GITHUB_RUN_ID; commit=$GITHUB_SHA; conclusion=${{ job.status }}"
