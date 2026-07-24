@@ -29,7 +29,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: python -m pip install --upgrade pandas numpy requests searoute
-      - run: python temporary_research/collect_portwatch_delivery.py
+      - run: python temporary_research/collect_portwatch_delivery_v2.py
       - if: always()
         run: |
           cat research_output/paper2_v7/port_delivery_extension_summary.json || true
@@ -37,7 +37,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: paper2-v7-port-delivery-extension
+          name: paper2-v7-port-delivery-extension-v2
           path: research_output/paper2_v7
           if-no-files-found: error
           retention-days: 7
