@@ -4,11 +4,13 @@ on:
     branches: [main]
     paths:
       - 'temporary_research/collect_jodi_gulf_exports.py'
+      - 'temporary_research/RUN_JODI.txt'
       - '.github/workflows/temporary-paper2-v7-jodi.yml'
   pull_request:
     branches: [main]
     paths:
       - 'temporary_research/collect_jodi_gulf_exports.py'
+      - 'temporary_research/RUN_JODI.txt'
       - '.github/workflows/temporary-paper2-v7-jodi.yml'
 permissions:
   contents: read
